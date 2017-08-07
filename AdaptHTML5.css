@@ -1,0 +1,42 @@
+/*generic AdaptHTML5 elements*/
+html, body{
+	margin: 0;
+	padding:0;
+	
+}
+
+div{
+	position: absolute;
+}
+
+#CLUeUnit{
+	width:968px;
+	height: 248px;
+	position:absolute;
+	overflow: hidden;
+	background: #000000;
+	border: 1px solid #000;
+}
+			
+.AdaptCarousel{
+	z-index:200;
+	position:absolute;
+	overflow: hidden;
+}
+
+.AdaptCarousel div{
+	position:absolute;
+	overflow: hidden;
+}
+.AdaptCarousel > div{
+}
+			
+.thumbnail{
+	overflow: hidden;
+}
+			
+.linkButton{
+	position:absolute;
+	cursor: pointer;
+}
+			

@@ -1,0 +1,539 @@
+body {
+
+}
+
+a{
+	position:absolute;
+	display:block;
+	cursor:pointer;
+}
+
+img{
+	position:absolute;
+}
+
+#AdContainer{
+	width:970px;
+	height:7500px;
+	overflow: hidden;
+}
+
+#Preloader{
+	width:970px;
+	height:250px;
+	background-image:url("PreloaderBG.jpg");
+}
+
+#Panel1, #Panel2, #Panel3{
+	width:970px;
+	height:250px;
+	background-color: #2c2c2c;
+}
+#Panel1{
+	background-image: url("MainBG.jpg");
+}
+#Panel2{
+	top:250px;
+	background-image: url("MainProduct1.jpg");
+	visibility: hidden;
+}
+#Panel3{
+	top:500px;
+	background-image: url("ThirdPanel1.jpg");
+	visibility: hidden;
+}
+
+.shadow{
+	width:100%;
+	height:100%;
+	background-color: #000;
+	opacity:0;
+	visibility: hidden;
+}
+
+#CTA{
+	width:970px;
+	height:250px;
+	cursor: pointer;
+}
+
+
+
+
+.preloaderImage
+{
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    
+}
+
+#RollPreloader{
+	background-image:url("ajax-loader.gif");
+	width:32px;
+	height:32px;
+	left:614px;
+	top:133px;
+	visibility: hidden;
+	
+}
+
+#CloseFormat{
+	cursor: pointer;
+	overflow: hidden;
+	position:absolute;
+	display:block;
+	width:23px;
+	height: 23px;
+	right:9px;
+	top:8px;
+	background: url('CloseButton.png');
+	z-index:30;
+	visibility: hidden;
+	background-position: 0px 0px;
+}
+
+#CloseFormat:hover{
+	background-position: 0px -23px;
+	
+}
+
+/*
+ * Panel CTAs
+ */
+.SectionCTA{
+	position:absolute;
+	display:block;
+	cursor:pointer;
+	width:100%;
+	height:100%;
+}
+
+/*-----------------------------------------------------------------
+ * Panel 1
+ */
+
+#Panel1 .SectionCTA{
+	z-index: 3;
+}
+
+.FindOutMore{
+	width:970px;
+	height:250px;
+	background-image:url("FindTheRightTool.png");
+	background-position: 0px 0px;
+	opacity:0;
+	overflow:hidden;
+}
+
+#Panel1 .SectionCTA:hover .FindOutMore{
+	background-position: 0px -250px;
+}
+
+.Product{
+	width:278px;
+	height:250px;
+	right:-278px;
+}
+
+#Prod1{
+	background-image: url("Prod1.png");
+}
+
+#Prod2{
+	background-image: url("Prod2.png");
+}
+
+#Prod3{
+	background-image: url("Prod3.png");
+}
+
+#Prod4{
+	background-image: url("Prod4.png");
+}
+
+#Prod5{
+	background-image: url("Prod5.png");
+}
+
+#Prod6{
+	background-image: url("Prod6.png");
+}
+
+.Logo{
+	width:970px;
+	height:250px;
+	background-image:url("MaybellineLogo.png");
+}
+
+.Heading{
+	width:970px;
+	height:250px;
+	background-image:url("GameChanger.png");
+	opacity:0;
+}
+
+.Rollover{
+	width:326px;
+	height:9px;
+	background-image:url("RolloverToGet.png");
+	opacity:0;
+	left:321px;
+	top:205px;
+}
+
+
+/*-----------------------------------------------------------------
+ * Image Gallery - Panel 2
+ */
+
+#Panel2 .TextPanel{
+	background-image:url("TextPanel2.png");
+}
+
+#Panel2 .SectionCTA{
+	z-index: 4;
+}
+
+
+.Carousel{
+	z-index: 1;
+	width:970px;
+	height:250px;
+	overflow:hidden;
+}
+
+.Image{
+	width:970px;
+	height:250px;
+}
+#Image1{
+	background-image:url("MainProduct1.jpg");
+}
+#Image2{
+	background-image:url("MainProduct2.jpg");
+	visibility:hidden;
+}
+#Image3{
+	background-image:url("MainProduct3.jpg");
+	visibility:hidden;
+}
+#Image4{
+	background-image:url("MainProduct4.jpg");
+	visibility:hidden;
+}
+#Image5{
+	background-image:url("MainProduct5.jpg");
+	visibility:hidden;
+}
+
+.GalleryButton{
+	z-index:4;
+	width:90px;
+	height:250px;
+	background-position: 0px 0px;
+	top:0px;
+}
+.GalleryButton:hover{
+	background-position: 0px -250px;
+}
+
+#Next{
+	right:0px;
+	background-image: url("NextButton.png");
+}
+#Prev{
+	left:0px;
+	background-image: url("PrevButton.png");
+}
+
+.TryItNow{
+	width:114px;
+	height:47px;
+	background-image:url("TryItNow.png");
+	background-position:0px 0px;
+}
+.GalleryCTA:hover .TryItNow{
+	background-position:0px -47px;
+}
+
+#TIN1{
+	left:377px;
+	top:152px;
+}
+
+#TIN2{
+	left:377px;
+	top:152px;
+}
+
+#TIN3{
+	left:377px;
+	top:152px;
+}
+
+#TIN4{
+	left:377px;
+	top:132px;
+}
+
+#TIN5{
+	left:377px;
+	top:132px;
+}
+
+.SelectButton{
+	width:14px;
+	height:18px;
+	top:207px;
+	opacity:.7;
+	z-index: 4;
+}
+#Select1{
+	left:448px;
+}
+#Select2{
+	left:463px;
+}
+#Select3{
+	left:478px;
+}
+#Select4{
+	left:493px;
+}
+#Select5{
+	left:508px;
+}
+
+
+/*-----------------------------------------------------------------
+ * Panel 3
+ */
+#Detail1{
+	background-image:url("ThirdPanel1.jpg");
+}
+#Detail2{
+	background-image:url("ThirdPanel2.jpg");
+	visibility:hidden;
+}
+#Detail3{
+	background-image:url("ThirdPanel3.jpg");
+	visibility:hidden;
+}
+#Detail4{
+	background-image:url("ThirdPanel4.jpg");
+	visibility:hidden;
+}
+#Detail5{
+	background-image:url("ThirdPanel5.jpg");
+	visibility:hidden;
+}
+
+.LearnMore{
+	width:127px;
+	height:47px;
+	background-image:url("LearnMore.png");
+	background-position:0px 0px;
+}
+.GalleryCTA:hover .LearnMore{
+	background-position:0px -47px;
+}
+
+#LM1{
+	left:546px;
+	top:142px;
+}
+
+#LM2{
+	left:546px;
+	top:142px;
+}
+
+#LM3{
+	left:546px;
+	top:142px;
+}
+
+#LM4{
+	left:546px;
+	top:142px;
+}
+
+#LM5{
+	left:546px;
+	top:161px;
+}
+
+/*------------------Product Details----------------------------------------------*/
+.ProdDetails{
+	height:250px;
+	width:316px;
+	top:0px;
+	left:0px;
+	opacity:0;
+}
+
+#ProdDet1_1{
+	background-image:url("Img1_1.jpg");
+	opacity:1;
+}
+
+#ProdDet1_2{
+	background-image:url("Img1_2.jpg");
+}
+
+#ProdDet1_3{
+	background-image:url("Img1_3.jpg");
+}
+
+#ProdDet1_4{
+	background-image:url("Img1_4.jpg");
+}
+
+#ProdDet1_5{
+	background-image:url("Img1_5.jpg");
+}
+
+#ProdDet1_6{
+	background-image:url("Img1_6.jpg");
+}
+
+#ProdDet2_1{
+	background-image:url("Img2_1.jpg");
+	opacity:1;
+}
+
+#ProdDet2_2{
+	background-image:url("Img2_2.jpg");
+}
+
+#ProdDet2_3{
+	background-image:url("Img2_3.jpg");
+}
+
+#ProdDet2_4{
+	background-image:url("Img2_4.jpg");
+}
+
+#ProdDet3_1{
+	background-image:url("Img3_1.jpg");
+	opacity:1;
+}
+
+#ProdDet3_2{
+	background-image:url("Img3_2.jpg");
+}
+
+#ProdDet3_3{
+	background-image:url("Img3_3.jpg");
+}
+
+#ProdDet3_4{
+	background-image:url("Img3_4.jpg");
+}
+
+#ProdDet3_5{
+	background-image:url("Img3_5.jpg");
+}
+
+#ProdDet4_1{
+	background-image:url("Img4_1.jpg");
+	opacity:1;
+}
+
+#ProdDet4_2{
+	background-image:url("Img4_2.jpg");
+}
+
+#ProdDet4_3{
+	background-image:url("Img4_3.jpg");
+}
+
+#ProdDet4_4{
+	background-image:url("Img4_4.jpg");
+}
+
+#ProdDet4_5{
+	background-image:url("Img4_5.jpg");
+}
+
+#ProdDet4_6{
+	background-image:url("Img4_6.jpg");
+}
+
+#ProdDet5_1{
+	background-image:url("Img5_1.jpg");
+	opacity:1;
+}
+
+#ProdDet5_2{
+	background-image:url("Img5_2.jpg");
+}
+
+#ProdDet5_3{
+	background-image:url("Img5_3.jpg");
+}
+
+#ProdDet5_4{
+	background-image:url("Img5_4.jpg");
+}
+
+#ProdDet5_5{
+	background-image:url("Img5_5.jpg");
+}
+
+/*-----------------------Text---------------------------------------*/
+.ProdText{
+	width:970px;
+	height:250px;
+	opacity:0;
+}
+
+#ProdText1_1{
+	background-image:url("Det1_1.png");
+}
+
+#ProdText1_2{
+	background-image:url("Det1_2.png");
+}
+
+#ProdText2_1{
+	background-image:url("Det2_1.png");
+	
+}
+
+#ProdText2_2{
+	background-image:url("Det2_2.png");
+}
+
+#ProdText3_1{
+	background-image:url("Det3_1.png");
+}
+
+#ProdText3_2{
+	background-image:url("Det3_2.png");
+}
+
+#ProdText4_1{
+	background-image:url("Det4_1.png");
+}
+
+#ProdText4_2{
+	background-image:url("Det4_2.png");
+}
+
+#ProdText4_3{
+	background-image:url("Det4_3.png");
+}
+
+#ProdText5_1{
+	background-image:url("Det5_1.png");
+}
+
+#ProdText5_2{
+	background-image:url("Det5_2.png");
+}
+
+#ProdText5_3{
+	background-image:url("Det5_3.png");
+}
